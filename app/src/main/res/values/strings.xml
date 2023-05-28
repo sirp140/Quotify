@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Quotify</string>
+    <string name="quote_text">Alcohol is good for health.</string>
+    <string name="question_text">Do you find the quote inspiring?</string>
+    <string name="yes_button">Yes</string>
+    <string name="no_button">No</string>
+    <string name="yay_toast">Glad you liked it!</string>
+    <string name="nah_toast">Please check the next one.</string>
+</resources>
