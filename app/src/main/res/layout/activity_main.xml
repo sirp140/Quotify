@@ -2,13 +2,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/nature">
 
     <TextView
+        android:id="@+id/quote_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="24dp"
-        android:text="@string/quote_text"/>
+        android:padding="24dp"/>
+
 
     <TextView
         android:layout_width="wrap_content"
@@ -24,15 +26,25 @@
         <Button
             android:id="@+id/yes_button"
             android:layout_width="143dp"
-            android:layout_height="66dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"
+            android:gravity="center"
             android:text="@string/yes_button" />
 
         <Button
             android:id="@+id/no_button"
-            android:layout_width="181dp"
+            android:layout_width="127dp"
             android:layout_height="66dp"
+            android:layout_marginStart="8dp"
+            android:gravity="center"
             android:text="@string/no_button" />
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_button"/>
 
 </LinearLayout>
