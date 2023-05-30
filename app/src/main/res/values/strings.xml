@@ -8,4 +8,5 @@
     <string name="yay_toast">Glad you liked it!</string>
     <string name="nah_toast">Please check the next one.</string>
     <string name="next_button">Next</string>
+    <string name="prev_button">Prev</string>
 </resources>
