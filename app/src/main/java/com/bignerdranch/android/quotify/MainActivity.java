@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     private Button mYesButton;
     private Button mNoButton;
     private Button mNextButton;
+    private Button mPrevButton;
     private TextView mQuoteTextView;
     private int mCurrentIndex = 0;
 
@@ -33,9 +34,8 @@ public class MainActivity extends AppCompatActivity {
         mYesButton = (Button) findViewById(R.id.yes_button);
         mNoButton = (Button) findViewById(R.id.no_button);
         mNextButton = (Button)findViewById(R.id.next_button);
-
         mQuoteTextView = (TextView) findViewById(R.id.quote_text_view);
-
+        mPrevButton = (Button)findViewById(R.id.prev_button);
 
         //setting listeners for yes button
         mYesButton.setOnClickListener(new View.OnClickListener() {
@@ -64,6 +64,19 @@ public class MainActivity extends AppCompatActivity {
         });
 
         updateQuote();
+
+        mPrevButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                if(mCurrentIndex == 0){
+                    mCurrentIndex = mQuoteBank.length - 1;
+                }
+                else{
+                    mCurrentIndex = (mCurrentIndex -1) % mQuoteBank.length;
+                }
+                updateQuote();
+            }
+        });
 
     }
     private void updateQuote() {
