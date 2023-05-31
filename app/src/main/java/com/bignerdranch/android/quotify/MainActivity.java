@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -14,14 +15,17 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     private Button mYesButton;
     private Button mNoButton;
-    private Button mNextButton;
-    private Button mPrevButton;
+    private ImageButton mNextButton;
+    private ImageButton mPrevButton;
     private TextView mQuoteTextView;
     private int mCurrentIndex = 0;
 
     private Quote[] mQuoteBank = new Quote[]{
             new Quote(R.string.believe_you_can),
             new Quote(R.string.harder_I_work),
+            new Quote(R.string.predict_the_future),
+            new Quote(R.string.keep_going),
+            new Quote(R.string.future_belongs_to),
     };
 
     //onCreate(Bundle) method is called when an instance of the activity subclass is created
@@ -33,9 +37,9 @@ public class MainActivity extends AppCompatActivity {
         //getting references to widgets
         mYesButton = (Button) findViewById(R.id.yes_button);
         mNoButton = (Button) findViewById(R.id.no_button);
-        mNextButton = (Button)findViewById(R.id.next_button);
+        mNextButton = findViewById(R.id.next_button);
         mQuoteTextView = (TextView) findViewById(R.id.quote_text_view);
-        mPrevButton = (Button)findViewById(R.id.prev_button);
+        mPrevButton = findViewById(R.id.prev_button);
 
         //setting listeners for yes button
         mYesButton.setOnClickListener(new View.OnClickListener() {

@@ -9,56 +9,66 @@
         android:id="@+id/quote_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
         android:padding="24dp"/>
 
+
+    <LinearLayout
+        android:layout_width="281dp"
+        android:layout_height="71dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/prev_button"
+            android:layout_width="74dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="50dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/arrow_left" />
+
+        <ImageButton
+            android:id="@+id/next_button"
+            android:layout_width="76dp"
+            android:layout_height="44dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/arrow_right"
+            android:text="@string/next_button" />
+
+    </LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="24dp"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
         android:text="@string/question_text"/>
 
     <LinearLayout
-        android:layout_width="285dp"
-        android:layout_height="wrap_content"
+        android:layout_width="289dp"
+        android:layout_height="41dp"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/yes_button"
-            android:layout_width="143dp"
-            android:layout_height="match_parent"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+
+            android:layout_marginStart="70dp"
             android:layout_marginEnd="8dp"
             android:gravity="center"
-            android:text="@string/yes_button" />
+            android:text="@string/yes_button"
+            android:textColor="#FFFFFF" />
 
         <Button
             android:id="@+id/no_button"
-            android:layout_width="127dp"
-            android:layout_height="66dp"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
             android:layout_marginStart="8dp"
             android:gravity="center"
-            android:text="@string/no_button" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="285dp"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/prev_button"
-            android:layout_width="143dp"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="8dp"
-            android:text="@string/prev_button" />
-
-        <Button
-            android:id="@+id/next_button"
-            android:layout_width="144dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:text="@string/next_button" />
+            android:text="@string/no_button"/>
 
     </LinearLayout>
 
