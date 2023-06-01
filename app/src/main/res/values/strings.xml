@@ -20,4 +20,5 @@
     <string name="quote_keep_going_description">This quote inspires perseverance and action, emphasizing the need to stay focused and determined.</string>
     <string name="quote_future_belongs_description">This quote is often attributed to Eleanor Roosevelt, emphasizing the significance of having faith in own dreams.</string>
     <string name="back_text">Back</string>
+    <string name="returning_from_DetailsActivity_toast"> Welcome Back!</string>
 </resources>

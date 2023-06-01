@@ -103,6 +103,20 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
+    @Override
+    protected void onResume() {
+
+        super.onResume();
+
+        //check if coming back from DetailsActivity
+        boolean comingFromDetailsActivity = getIntent().getBooleanExtra("comingFromDetailsActivity", false);
+        if(comingFromDetailsActivity) {
+            Toast.makeText(this, R.string.returning_from_DetailsActivity_toast, Toast.LENGTH_SHORT).show();
+        }
+    }
+
+
     private void updateQuote() {
         int quote = mQuoteBank[mCurrentIndex].getTextResId();
         mQuoteTextView.setText(quote);
