@@ -19,4 +19,5 @@
     <string name="quote_predict_future_description">This quote attributed to Peter Drucker, emphasizing the importance of proactively shaping own future rather than passively waiting for it to unfold.</string>
     <string name="quote_keep_going_description">This quote inspires perseverance and action, emphasizing the need to stay focused and determined.</string>
     <string name="quote_future_belongs_description">This quote is often attributed to Eleanor Roosevelt, emphasizing the significance of having faith in own dreams.</string>
+    <string name="back_text">Back</string>
 </resources>
