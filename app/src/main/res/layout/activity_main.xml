@@ -12,8 +12,18 @@
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:padding="24dp"/>
+        android:gravity="start|center_vertical"
+        android:textAlignment="viewStart"
+        android:paddingStart="15dp"
+        android:padding="5dp"/>
 
+    <Button
+        android:id="@+id/details_button"
+        android:layout_width="96dp"
+        android:layout_height="50dp"
+        android:text="@string/details_text"
+        android:layout_marginBottom="60dp">
+    </Button>
 
     <LinearLayout
         android:layout_width="281dp"
@@ -22,21 +32,23 @@
 
         <ImageButton
             android:id="@+id/prev_button"
-            android:layout_width="74dp"
+            android:layout_width="75dp"
             android:layout_height="44dp"
-            android:layout_marginStart="50dp"
+            android:layout_marginStart="58dp"
             android:scaleType="fitCenter"
             android:src="@drawable/arrow_left" />
 
         <ImageButton
             android:id="@+id/next_button"
-            android:layout_width="76dp"
+            android:layout_width="75dp"
             android:layout_height="44dp"
+            android:layout_marginStart="10dp"
             android:scaleType="fitCenter"
             android:src="@drawable/arrow_right"
-            android:text="@string/next_button" />
+            android:text="@string/next_button"/>
 
     </LinearLayout>
+
 
     <TextView
         android:layout_width="wrap_content"
@@ -44,7 +56,8 @@
         android:padding="24dp"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
-        android:text="@string/question_text"/>
+        android:text="@string/question_text"
+        android:layout_marginTop="50dp"/>
 
     <LinearLayout
         android:layout_width="289dp"
@@ -53,10 +66,10 @@
 
         <Button
             android:id="@+id/yes_button"
-            android:layout_width="70dp"
+            android:layout_width="100dp"
             android:layout_height="50dp"
 
-            android:layout_marginStart="70dp"
+            android:layout_marginStart="35dp"
             android:layout_marginEnd="8dp"
             android:gravity="center"
             android:text="@string/yes_button"
@@ -64,13 +77,12 @@
 
         <Button
             android:id="@+id/no_button"
-            android:layout_width="70dp"
+            android:layout_width="100dp"
             android:layout_height="50dp"
             android:layout_marginStart="8dp"
             android:gravity="center"
             android:text="@string/no_button"/>
 
     </LinearLayout>
-
 
 </LinearLayout>

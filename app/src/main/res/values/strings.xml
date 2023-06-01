@@ -12,4 +12,11 @@
     <string name="nah_toast">Please check the next one.</string>
     <string name="next_button">Next</string>
     <string name="prev_button">Prev</string>
+    <string name="details_text">Details</string>
+
+    <string name="quote_believe_description">This quote  is attributed to Theodore Roosevelt, highlighting the power of self-belief in achieving success.</string>
+    <string name="quote_harder_work_description">This quote is attributed to Thomas Jefferson, emphasizing the correlation between hard work and increasing opportunities for success.</string>
+    <string name="quote_predict_future_description">This quote attributed to Peter Drucker, emphasizing the importance of proactively shaping own future rather than passively waiting for it to unfold.</string>
+    <string name="quote_keep_going_description">This quote inspires perseverance and action, emphasizing the need to stay focused and determined.</string>
+    <string name="quote_future_belongs_description">This quote is often attributed to Eleanor Roosevelt, emphasizing the significance of having faith in own dreams.</string>
 </resources>
