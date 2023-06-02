@@ -19,7 +19,8 @@ Quotify is a simple Android app that allows users to explore and save their favo
 ## Technology Used 🛠️
 
 Quotify is developed using Java and the Android SDK. It utilizes various Android components such as Activities, Intents, and Layouts to create an interactive user interface. The app also leverages resources like strings, drawables, and layouts to provide a visually appealing experience.
-![](https://imgur.com/a/pMkDACS)
+
+![ezgif com-video-to-gif](https://github.com/sirp140/Quotify/assets/85513412/d0617744-3fbc-4dbe-8efb-4050e46f2217)
 
 ## Contributions and Feedback 🤝
 
