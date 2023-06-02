@@ -1,4 +1,4 @@
-📚 **Quotify - Favorite Quotes App** 📚
+**Quotify - Favorite Quotes App** 📚
 
 Quotify is a simple Android app that allows users to explore and save their favorite quotes. It provides an intuitive interface for browsing through a collection of quotes and marking them as favorites. The app aims to inspire and motivate users by presenting them with impactful and thought-provoking quotes.
 
@@ -20,13 +20,13 @@ Quotify is a simple Android app that allows users to explore and save their favo
 
 Quotify is developed using Java and the Android SDK. It utilizes various Android components such as Activities, Intents, and Layouts to create an interactive user interface. The app also leverages resources like strings, drawables, and layouts to provide a visually appealing experience.
 
+## Video WalkThrough📱
+
 ![ezgif com-video-to-gif](https://github.com/sirp140/Quotify/assets/85513412/d0617744-3fbc-4dbe-8efb-4050e46f2217)
 
 ## Contributions and Feedback 🤝
 
-If you would like to contribute to the app's development or suggest new features, please submit a pull request or create an issue on the project's GitHub repository.
-
-If you encounter any bugs or have any feedback or suggestions, please feel free to reach out.
+If you would like to contribute to the app's development or suggest new features, please submit a pull request or create an issue on the project's GitHub repository. If you encounter any bugs or have any feedback or suggestions, please feel free to reach out.
 
 ## License 📜
 
