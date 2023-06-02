@@ -22,7 +22,7 @@ Quotify is developed using Java and the Android SDK. It utilizes various Android
 
 ## Video WalkThrough📱
 
-![ezgif com-video-to-gif](https://github.com/sirp140/Quotify/assets/85513412/d0617744-3fbc-4dbe-8efb-4050e46f2217)
+![ezgif com-video-to-gif-2](https://github.com/sirp140/Quotify/assets/85513412/20767791-5dca-44d5-bd67-79407e4752ab)
 
 ## Contributions and Feedback 🤝
 
