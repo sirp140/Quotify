@@ -11,6 +11,7 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import database.QuoteBaseHelper;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -21,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
     private TextView mQuoteTextView;
     private int mCurrentIndex = 0;
     private Button mDetailsButton;
+
+    private QuoteBaseHelper mDatabaseHelper;
 
     private Quote[] mQuoteBank = new Quote[]{
             new Quote(R.string.believe_you_can, R.string.quote_believe_description),
@@ -36,6 +39,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Initialize the database helper
+        mDatabaseHelper = new QuoteBaseHelper(this);
+
         //getting references to widgets
         mYesButton = (Button) findViewById(R.id.yes_button);
         mNoButton = (Button) findViewById(R.id.no_button);
@@ -48,6 +54,12 @@ public class MainActivity extends AppCompatActivity {
         mYesButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Quote currentQuote = mQuoteBank[mCurrentIndex];
+                String quoteText = getString(currentQuote.getTextResId());
+
+                // Insert the quote into the database
+                mDatabaseHelper.insertQuote(quoteText);
+
                 Toast.makeText(MainActivity.this, R.string.yay_toast, Toast.LENGTH_LONG).show();
             }
         });
@@ -101,6 +113,20 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        /*
+        Button mShowSavedButton = findViewById(R.id.showSaved_button);
+        mShowSavedButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Open the SavedQuotesActivity when the button is clicked
+                Intent intent = new Intent(MainActivity.this, SavedQuotesActivity.class);
+                startActivity(intent);
+            }
+        });
+
+         */
+
 
     }
 

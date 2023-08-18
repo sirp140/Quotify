@@ -3,6 +3,7 @@ package com.bignerdranch.android.quotify;
 public class Quote {
     private int mTextResId;
     private int mquoteDetailsResId;
+    private String quoteText;
 
 
     public Quote (int textResId, int quoteDetailsResId){
@@ -30,6 +31,13 @@ public class Quote {
         mquoteDetailsResId = quoteDetailsResId;
     }
 
+    public String getQuoteText() {
+        return quoteText;
+    }
+
+    public void setQuoteText(String quoteText) {
+        this.quoteText = quoteText;
+    }
 
 
 

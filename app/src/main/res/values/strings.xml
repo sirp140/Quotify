@@ -1,18 +1,19 @@
 <resources>
     <string name="app_name">Quotify</string>
-    <string name="believe_you_can">Believe you can and you are halfway there.</string>
-    <string name="harder_I_work">The harder I work, the luckier I get.</string>
-    <string name="predict_the_future">The best way to predict the future is to create it.</string>
-    <string name="keep_going">Do not watch the clock; do what it does. Keep going.</string>
-    <string name="future_belongs_to">The future belongs to those who believe in the beauty of their dreams.</string>
-    <string name="question_text">Do you find the quote inspiring?</string>
+    <string name="believe_you_can"> Believe you can and you are halfway there.</string>
+    <string name="harder_I_work"> The harder I work, the luckier I get.</string>
+    <string name="predict_the_future"> The best way to predict the future is to create it.</string>
+    <string name="keep_going"> Do not watch the clock; do what it does. Keep going.</string>
+    <string name="future_belongs_to"> The future belongs to those who believe in the beauty of their dreams.</string>
+    <string name="question_text">Do you want to save it?</string>
     <string name="yes_button">Yes</string>
     <string name="no_button">No</string>
-    <string name="yay_toast">Glad you liked it!</string>
-    <string name="nah_toast">Please check the next one.</string>
+    <string name="yay_toast">saved it!</string>
+    <string name="nah_toast">check the next one.</string>
     <string name="next_button">Next</string>
     <string name="prev_button">Prev</string>
     <string name="details_text">Details</string>
+    <string name="showSaved_button">Show saved</string>
 
     <string name="quote_believe_description">This quote  is attributed to Theodore Roosevelt, highlighting the power of self-belief in achieving success.</string>
     <string name="quote_harder_work_description">This quote is attributed to Thomas Jefferson, emphasizing the correlation between hard work and increasing opportunities for success.</string>
